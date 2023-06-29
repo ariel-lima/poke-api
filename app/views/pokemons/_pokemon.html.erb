@@ -1,0 +1,18 @@
+<div id="<%= dom_id pokemon %>">
+  <p>
+    <strong>Index:</strong>
+    <%= pokemon.api_id %>
+  </p>
+  <%= image_tag "#{pokemon.image_url}" %>
+  <p>
+    <strong>Name:</strong>
+    <%= pokemon.name.capitalize %>
+  </p>
+
+  <p>
+    <strong>Type:</strong>
+    <%= pokemon.types %>
+  </p>
+
+
+</div>

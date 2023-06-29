@@ -75,3 +75,8 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+gem "devise"
+gem "pundit"
+gem 'rest-client'
+gem 'nokogiri'
+gem 'open-uri'
