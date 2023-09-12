@@ -18,7 +18,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_22_031416) do
     t.string "name"
     t.string "types"
     t.string "image_url"
-    t.integer "id"
+    t.integer "api_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

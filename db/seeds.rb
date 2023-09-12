@@ -32,24 +32,6 @@ def seed_pokemon(name)
 end
 
 
-
-# def seed_all_pokemons
-#   pokemon_names = PokemonScraper.fetch_pokemon_names
-
-#   pokemon_names.each do |name|
-#     seed_pokemon(name)
-#   end
-# end
-
-# all_pokemons = Pokemon.all
-# Example usage:
-# seed_pokemon('pikachu')
-# seed_pokemon('bulbasaur')
-# seed_pokemon('charmander')
-# You can add more Pokémon names as needed
-# Seed all Pokémon records
-
-
 def seed_all_pokemons
 
   pokemon_list_capitalized = [
@@ -124,11 +106,20 @@ puts "Created #{all_pokemons.count} pokemons!"
 
 # Create User Profiles
 
+
+
+
+
+
+all_users = User.all
+puts "Creating User Profiles..."
 ash = User.create(
   email: "ash@pokemon.com",
   password: "123456"
 )
 
-all_users = User.all
-puts "Creating User Profiles..."
+puts "Created #{ash}!"
+puts "Created #{ash}!"
+puts "Created #{ash}!"
+
 puts "Created #{all_users.count} users"
